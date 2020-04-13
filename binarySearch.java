@@ -10,7 +10,7 @@ public class binarySearch {
         int min = 0;
         int max = primes.length - 1;
         int guess = 0;
-        var target = 8;//Target number the algorithm is supposed to locate
+        int target = 8;//Target number the algorithm is supposed to locate
         while (max > min) {
             guess = (int) floor((max + min) / 2);
             System.out.println("Guess: " + guess +" Min: " + min + " Max: " +max);
